@@ -1,0 +1,19 @@
+export default function HomePage() {
+  return (
+    <main className="min-h-screen bg-black text-white flex items-center justify-center">
+
+      <div className="glass rounded-3xl p-10">
+
+        <h1 className="text-6xl font-bold">
+          Ledgerly
+        </h1>
+
+        <p className="mt-4 text-zinc-300">
+          Modern fintech platform
+        </p>
+
+      </div>
+
+    </main>
+  )
+}
